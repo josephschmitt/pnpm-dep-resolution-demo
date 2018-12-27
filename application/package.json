@@ -1,0 +1,10 @@
+{
+  "name": "some-app",
+  "private": true,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@joe-sh/pnpm-api-adapters-todos": "^0.0.3"
+  }
+}

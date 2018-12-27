@@ -1,0 +1,43 @@
+dependencies:
+  '@joe-sh/pnpm-api-adapters': 0.0.4
+  axios: 0.18.0
+packages:
+  /@joe-sh/pnpm-api-adapters/0.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-31B5YGLdeAtjCSPGriXH9O8tQGMILVJwuv1rntPwLpoSmYwhqMGZ7+DH9+DsI3WDuK00J3r9/MmzZAoNMi9iwQ==
+  /axios/0.18.0:
+    dependencies:
+      follow-redirects: 1.6.0
+      is-buffer: 1.1.6
+    dev: false
+    resolution:
+      integrity: sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
+  /debug/3.1.0:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  /follow-redirects/1.6.0:
+    dependencies:
+      debug: 3.1.0
+    dev: false
+    engines:
+      node: '>=4.0'
+    resolution:
+      integrity: sha512-4Oh4eI3S9OueVV41AgJ1oLjpaJUhbJ7JDGOMhe0AFqoSejl5Q2nn3eGglAzRUKVKZE8jG5MNn66TjCJMAnpsWA==
+  /is-buffer/1.1.6:
+    dev: false
+    resolution:
+      integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+  /ms/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@joe-sh/pnpm-api-adapters': ^0.0.4
+  axios: ^0.18.0

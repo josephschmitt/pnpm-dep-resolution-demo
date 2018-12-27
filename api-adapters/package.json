@@ -1,0 +1,12 @@
+{
+  "name": "@joe-sh/pnpm-api-adapters",
+  "version": "0.0.4",
+  "scripts": {
+    "start:axios": "node test.axios.js",
+    "start:fetch": "node test.fetch.js"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "node-fetch": "^2.3.0"
+  }
+}
